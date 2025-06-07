@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To do list - star</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-auth-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-database-compat.js"></script>
+</head>
+<body>
+   <div class="wrap">
+      <div class="container">
+         <div class="login">
+            <h2>Login/Register</h2>
+            <input id="inputEmail" type="text" placeholder="Email">
+            <input id="inputPassword" type="password" placeholder="Password">
+
+            <button class="btnLogin">Login</button>
+            <button class="btnRegister">Register</button>
+         </div>
+         <button class="btnGoogle">Authenticate with Google</button>
+      </div>
+   </div>
+   <script src="./login.js"></script>
+</body>
+</html>
